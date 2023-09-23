@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>World News</title>
+    <link rel="icon" href="img/Favicon.ico" type="image/x-icon">
+    <script src="eel.js"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+
+  <header>
+    <h1>World News</h1>
+  </header>
+
+  <div class="content" align="center">
+    <select id="country">
+      <optgroup label="Global">
+        <option class="box">World</option>
+        <option class="box">Nation</option>
+        <option class="box">Business</option>
+        <option>Technology</option>
+        <option>Entertainment</option>
+        <option>Science</option>
+        <option>Sports</option>
+        <option>Health</option>
+      </optgroup>
+      <optgroup label="Countries">
+        <option>Russia</option>
+        <option>USA</option>
+        <option>Georgia</option>
+        <option>Ukraine</option>
+        <option>France</option>
+        <option>Armenia</option>
+        <option>China</option>
+        <option>England</option>
+        <option>Chinese</option>
+        <option>England</option>
+      </optgroup>
+    </select>
+
+
+    <select id="language">
+      <option>English - en</option>
+      <option>Russian - ru</option>
+      <option>Chinese - zh</option>
+      <option>French - fr</option>
+      <option>Ukrainian - uk</option>
+      <option>Spanish - es</option>
+      <option>Portuguese - pt</option>
+    </select>
+
+    <br><br>
+
+    <button id="command">GET NEWS</button>
+  </div>
+
+  <br>
+
+  <div id="Result"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

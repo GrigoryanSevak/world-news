@@ -1,0 +1,50 @@
+body{
+    background: rgb(95,98,255);
+    background: radial-gradient(circle, rgba(95,98,255,1) 0%, rgba(23,28,113,1) 100%);
+}
+
+#language , #country{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(149,148,148,1) 50%, rgba(106,106,106,1) 100%);
+    width: 45%;
+    height: 40px;
+    border-radius: 40px;
+    text-weight: bold;
+    space-between: 40px;
+
+}
+
+.box{
+    background: rgb(159,252,250);
+    background: radial-gradient(circle, rgba(159,252,250,1) 0%, rgba(126,150,242,1) 100%);
+}
+
+#Result{
+    font-family: Century;
+    color: white;
+    width: 100%;
+    min-height: 100px;
+    overflow-y: auto;
+    max-height: 350px;
+    background: rgba(40, 40, 42, 0.3);
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header{
+    text-align: center;
+    background: white;
+}
+
+#command{
+    width: 27%;
+    height: 35px;
+    border-radius: 15px;
+    border: 2px thick double white;
+    background: rgb(210,217,219, 0.8);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
