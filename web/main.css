@@ -14,11 +14,6 @@ body{
 
 }
 
-.box{
-    background: rgb(159,252,250);
-    background: radial-gradient(circle, rgba(159,252,250,1) 0%, rgba(126,150,242,1) 100%);
-}
-
 #Result{
     font-family: Century;
     color: white;
